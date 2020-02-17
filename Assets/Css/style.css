@@ -120,6 +120,15 @@ body {
     border-top-width: 8px;
   }
   
+  .footer-text, .header-text {
+    /* forces text across the entire screen so it has a center */
+    width: 100%;
+    text-align: center;
+  
+    font-size: 10px;
+    color:linen; 
+  }
+  
   /* media query for screen size to be applied to center text to switch at same time as navbar */
   @media (max-width: 768px) {
     .container-fluid {
